@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- charset: utf8 -*-
 
-def say_hello():
-    print 'Hello World'
-    print '==========='
-
+def main():
+    print 'Hello', 'world'
+    print "="*11
 
 if __name__ == '__main__':
-    say_hello()
+    main()
